@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_menu1"
+        android:icon="@drawable/menu1"
+        android:title="Kan Ara" />
+    <item
+        android:id="@+id/navigation_menu2"
+        android:icon="@drawable/menu2"
+        android:title="Kan Ver" />
+    <item
+        android:id="@+id/navigation_menu3"
+        android:icon="@drawable/menu3"
+        android:title="Kızılay"/>
+    <item
+        android:id="@+id/navigation_menu4"
+        android:icon="@drawable/menu4"
+        android:title="Ayarlar" />
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1033438832353",
+    "firebase_url": "https://notresang.firebaseio.com",
+    "project_id": "notresang",
+    "storage_bucket": "notresang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033438832353:android:3b1745b0a64fbe7e",
+        "android_client_info": {
+          "package_name": "com.project.zekiguler.notresang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033438832353-kcrijvut3au4oaomn8rkjb8u5tdq6g01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.zekiguler.notresang",
+            "certificate_hash": "fa605a8282bd2e413757989d79c5e9a7b4b64b60"
+          }
+        },
+        {
+          "client_id": "1033438832353-k53u6kdo360j2suaorgppbhjjojifos0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmJmk5ppfEm30UKjWzAQDCM1c5neMgd2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033438832353-k53u6kdo360j2suaorgppbhjjojifos0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity"
+        android:orientation="vertical"
+        android:background="#f7f7f7">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12.5dp"
+        android:background="@drawable/borderbuttonred"
+        android:text="Kayıt "
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/kullaniciAlani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="Email Adresinizi Giriniz.."
+        android:inputType="text"
+        android:maxLength="30" />
+
+    <EditText
+        android:id="@+id/sifreAlani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textPassword"
+        android:hint="6 Haneli Şifre Giriniz.."
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/adAlani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Adınız Soyadınız.."
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:maxLength="30"/>
+
+    <EditText
+        android:id="@+id/telefonAlani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="Telefon Numaranız (0xxx xxx xx xx).."
+        android:inputType="phone"
+        android:maxLength="11" />
+
+    <Spinner
+        android:id="@+id/kanGrubu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp">
+        <TextView
+            android:id="@+id/cinsiyetlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cinsiyet: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radiocinsiyetgrup">
+            <RadioButton android:id="@+id/radio_kadin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kadın" />
+            <RadioButton android:id="@+id/radio_erkek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Erkek" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/registerokbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_border"
+            android:onClick="onClick"
+            android:text="Kayıt Ol"
+            android:textColor="#ecf0f1"
+            android:textSize="17sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/registercancelbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_border"
+            android:onClick="onClick"
+            android:text="Geri Dön"
+            android:textColor="#ecf0f1"
+            android:textSize="17sp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>

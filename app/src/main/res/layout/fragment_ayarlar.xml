@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/ayarlarlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12.5dp"
+        android:background="@drawable/borderbuttonred"
+        android:text="Ayarlar"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kullaniciMailLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="Email Adresi:"
+            android:textColor="#161d1e"
+            android:textSize="17sp"
+            android:layout_weight="0.8"/>
+
+        <TextView
+            android:id="@+id/kullaniciMailValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1.19"
+            android:ems="10"
+            android:text="Yükleniyor.."
+            android:textColor="#161d1e"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kullaniciLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="İsim:"
+            android:textColor="#161d1e"
+            android:textSize="17sp"
+            android:layout_weight="0.8"/>
+
+        <TextView
+            android:id="@+id/kullaniciValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1.19"
+            android:ems="10"
+            android:text="Yükleniyor.."
+            android:textColor="#161d1e"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kanGrubuLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="Kan Grubu:"
+            android:textColor="#161d1e"
+            android:textSize="17sp"
+            android:layout_weight="0.8"/>
+
+        <TextView
+            android:id="@+id/kanGrubuValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1.19"
+            android:ems="10"
+            android:text="Yükleniyor.."
+            android:textColor="#161d1e"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/telefonLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="Telefon No:"
+            android:textColor="#161d1e"
+            android:textSize="17sp"
+            android:layout_weight="0.8"/>
+
+        <EditText
+            android:id="@+id/telefonValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1.2"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="11"
+            android:numeric="integer" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mesafeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.8"
+            android:text="Mesafe (Km):"
+            android:textColor="#161d1e"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/mesafeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1.2"
+            android:ems="10"
+            android:inputType="number"
+            android:numeric="integer" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sifreLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="Şifre:"
+            android:textColor="#161d1e"
+            android:textSize="17sp"
+            android:layout_weight="0.8"/>
+
+        <EditText
+            android:id="@+id/sifreDegistir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:ems="6"
+            android:hint="6 Haneli Yeni şifre.."
+            android:inputType="textPassword"
+            android:maxLength="6"
+            android:layout_weight="1.2"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sifreDegistirButton"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_border"
+        android:onClick="onClick"
+        android:text="Ayar Değiştir"
+        android:textColor="#ecf0f1"
+        android:textSize="17sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_border"
+        android:onClick="onClick"
+        android:text="Kullanıcıdan Çık"
+        android:textColor="#ecf0f1"
+        android:textSize="17sp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/popupstyle"
+    android:elevation="10dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ilanpopupname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Hasta Adı: "
+        android:textColor="#161d1e"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ilanpopupirtibatno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Irtibat No: "
+        android:textColor="#161d1e"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ilanpopuphastaneadi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Hastane Adı: "
+        android:textColor="#161d1e"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ilanpopupmesafe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Mesafe: "
+        android:textColor="#161d1e"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/ilanpopupkangrubu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Kan Grubu: "
+        android:textColor="#161d1e"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/ilanpopupaciklama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Açıklama: "
+        android:textColor="#161d1e"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ilanpopuparabutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_border"
+        android:text="Ara"
+        android:textColor="#ecf0f1"
+        android:textSize="18sp" />
+</LinearLayout>

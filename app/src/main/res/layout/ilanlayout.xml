@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="5dp">
+    <TextView
+        android:id="@+id/ilanHastaAdi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginLeft="5dp"
+        android:textColor="#161d1e"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/ilanIrtibatNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="IrtibatNo"
+        android:textColor="#161d1e"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/arabutton"
+        android:layout_width="0dp"
+        android:layout_height="31dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/kanverarabuttonstyle"
+        android:text="Ara"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+<TextView
+    android:id="@+id/ilanHastaneAdi"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="HastaneAdi"
+    android:textColor="#161d1e"
+    android:textSize="17sp"
+    android:layout_weight="1"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/ilanMesafe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mesafe:"
+        android:textColor="#161d1e"
+        android:textSize="17sp"
+        android:layout_weight="1"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+</LinearLayout>
+</LinearLayout>

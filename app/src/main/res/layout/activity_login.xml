@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="#f7f7f7">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12.5dp"
+        android:background="@drawable/borderbuttonred"
+        android:text="Giriş"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/loginkullaniciAlani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email Adresiniz.."
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:maxLength="30"/>
+
+    <EditText
+        android:id="@+id/loginsifreAlani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textPassword"
+        android:hint="Şifre.."
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:maxLength="6"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/loginokbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_border"
+            android:onClick="onClick"
+            android:text="Giriş Yap"
+            android:textColor="#ecf0f1"
+            android:textSize="17sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/logincancelbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_border"
+            android:onClick="onClick"
+            android:text="Geri Dön"
+            android:textColor="#ecf0f1"
+            android:textSize="17sp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>
